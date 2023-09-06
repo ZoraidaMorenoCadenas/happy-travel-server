@@ -18,7 +18,7 @@ class DestinationController extends Controller
     {
         //
         $destinations = Destination::all();
-        return response()->json([$destinations]);
+        return response()->json($destinations);
     }
     /**
      * Store a newly created resource in storage.

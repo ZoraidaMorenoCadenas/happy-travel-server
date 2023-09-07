@@ -2,6 +2,8 @@
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
+use App\Models\User;
+use Illuminate\Database\Eloquent\AuthController;
 
 define('LARAVEL_START', microtime(true));
 
